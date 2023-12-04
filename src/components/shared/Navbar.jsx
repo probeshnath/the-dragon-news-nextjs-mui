@@ -11,6 +11,9 @@ import logo from '@/assets/Group.png'
 
 // icons
 import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GoogleIcon from '@mui/icons-material/Google';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from 'next/link';
 import { Stack } from '@mui/material';
 import Header from './Header';
@@ -26,7 +29,7 @@ const navItems = [
     },
     {
         route: "Category",
-        path: "/category"
+        path: "/categories/news?category=all-news"
     },
     {
         route: "News",
@@ -69,13 +72,13 @@ function Navbar() {
                                 <FacebookIcon />
                             </IconButton>
                             <IconButton>
-                                <FacebookIcon />
+                                <GitHubIcon />
                             </IconButton>
                             <IconButton>
-                                <FacebookIcon />
+                                <GoogleIcon />
                             </IconButton>
                             <IconButton>
-                                <FacebookIcon />
+                                <LinkedInIcon />
                             </IconButton>
                         </Stack>
                     </Box>
